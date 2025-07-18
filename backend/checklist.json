@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "date": "",
+    "device_name": "",
+    "technician_name": "",
+    "user_name": ""
+  },
+  "items": [
+    {
+      "checked": false,
+      "id": 1,
+      "text": "Insert PXE USB into laptop, turn machine on and press F10 until boot menu appears."
+    },
+    {
+      "checked": false,
+      "id": 2,
+      "text": "Change boot order to boot to USB first then save and restart device."
+    },
+    {
+      "checked": false,
+      "id": 3,
+      "text": "Ivanti template screen will populate, and you will navigate to the correct image."
+    },
+    {
+      "checked": false,
+      "id": 4,
+      "text": "After image runs, device will restart and load to the Windows log-in screen. "
+    },
+    {
+      "checked": false,
+      "id": 5,
+      "text": "Remove the PXE USB drive."
+    },
+    {
+      "checked": false,
+      "id": 6,
+      "text": "Log into KNTAdmin and an Ivanti template should populate."
+    },
+    {
+      "checked": false,
+      "id": 7,
+      "text": "Sometimes this can take upwards of 10 minutes to show. If it does not show within that time, restart the imaging process."
+    },
+    {
+      "checked": false,
+      "id": 8,
+      "text": "Device will restart after a while."
+    },
+    {
+      "checked": false,
+      "id": 9,
+      "text": "Log in with your corp adm account at the next log-in and allow Ivanti template to run and complete."
+    },
+    {
+      "checked": false,
+      "id": 10,
+      "text": "Add the description for the device Users Name Shared , Company , Location."
+    },
+    {
+      "checked": false,
+      "id": 11,
+      "text": "Name the device."
+    },
+    {
+      "checked": false,
+      "id": 12,
+      "text": "Kent Laptop,Desktop,Thin Client , KLT KDT KTC"
+    },
+    {
+      "checked": false,
+      "id": 13,
+      "text": "GPC Muscatine Laptop ,Desktop ,Thin Client , GLT GDT GTC"
+    },
+    {
+      "checked": false,
+      "id": 14,
+      "text": "GPC Washington Laptop,Desktop , WLT,WDT"
+    },
+    {
+      "checked": false,
+      "id": 15,
+      "text": "Verify device has Windows enterprise."
+    },
+    {
+      "checked": false,
+      "id": 16,
+      "text": "Run Windows Update."
+    },
+    {
+      "checked": false,
+      "id": 17,
+      "text": "Run HP Image Assistant"
+    },
+    {
+      "checked": false,
+      "id": 18,
+      "text": "Install the latest Ivanti Agent."
+    },
+    {
+      "checked": false,
+      "id": 19,
+      "text": "Run Security Scan."
+    },
+    {
+      "checked": false,
+      "id": 20,
+      "text": "Verify the following software,agents are installed:"
+    },
+    {
+      "checked": false,
+      "id": 21,
+      "text": "Cisco Any Connect."
+    },
+    {
+      "checked": false,
+      "id": 22,
+      "text": "Rapid7 Insight Agent"
+    },
+    {
+      "checked": false,
+      "id": 23,
+      "text": "Ivanti Agent."
+    },
+    {
+      "checked": false,
+      "id": 24,
+      "text": "Office 365 Applications."
+    },
+    {
+      "checked": false,
+      "id": 25,
+      "text": "Install the requested software listed in the Service Request."
+    },
+    {
+      "checked": false,
+      "id": 26,
+      "text": "Reach out to the users supervisor if there are questions about the needed software."
+    },
+    {
+      "checked": false,
+      "id": 27,
+      "text": "Run Disc clean-up."
+    },
+    {
+      "checked": false,
+      "id": 28,
+      "text": "Run an inventory scan."
+    },
+    {
+      "checked": false,
+      "id": 29,
+      "text": "Check for device to show in Rapid7 with a score no more than 6k."
+    },
+    {
+      "checked": false,
+      "id": 30,
+      "text": "Verify device is enrolled in Intune."
+    },
+    {
+      "checked": false,
+      "id": 31,
+      "text": "Change device status to deploy in data analytics"
+    },
+    {
+      "checked": false,
+      "id": 32,
+      "text": "Verify device shows with agent and device information in Ivanti Console."
+    },
+    {
+      "checked": false,
+      "id": 33,
+      "text": "Pass off to colleague to look over and initial"
+    }
+  ]
+}
